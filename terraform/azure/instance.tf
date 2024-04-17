@@ -7,7 +7,7 @@ resource random_string "password" {
 }
 
 resource azurerm_linux_virtual_machine "linux_machine" {
-  admin_username                  = "terragoat-linux"
+  admin_username                  = "terragoat--linux"
   admin_password                  = random_string.password.result
   location                        = var.location
   name                            = "terragoat-linux"
