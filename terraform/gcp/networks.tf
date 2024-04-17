@@ -11,7 +11,7 @@ resource "google_compute_subnetwork" "public-subnetwork" {
   network       = google_compute_network.vpc.id
 
   secondary_ip_range {
-    range_name    = "tf-test-secondary-range-update1"
+    range_name    = "tf--test-secondary-range-update1"
     ip_cidr_range = "192.168.10.0/24"
   }
 }
