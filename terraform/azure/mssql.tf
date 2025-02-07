@@ -125,9 +125,7 @@ resource "azurerm_mssql_server" "mssql6" {
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
     git_modifiers        = "28880387+tsmithv11"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
-    yor_trace            = "042d15fb-edfa-484b-b65e-3d70c50cdee7"
+    sas                  = "BlobEndpoint=https://exampleaccount.blob.core.windows.net/;QueueEndpoint=https://exampleaccount.queue.core.windows.net/;FileEndpoint=https://exampleaccount.file.core.windows.net/;TableEndpoint=https://exampleaccount.table.core.windows.net/;SharedAccessSignature=sv=2024-11-15&ss=b&srt=sco&sp=rwdlacupx&se=2024-11-20T23:59:59Z&st=2024-11-15T00:00:00Z&spr=https&sig=abcdefghijklmno1234567890qrstuvwxyz%2FABCDE12345%3D"
   }
 }
 
@@ -144,8 +142,6 @@ resource "azurerm_mssql_server" "mssql7" {
     git_last_modified_at = "2022-01-20 18:41:19"
     git_last_modified_by = "28880387+tsmithv11@users.noreply.github.com"
     git_modifiers        = "28880387+tsmithv11"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
     yor_trace            = "3f1118e1-5067-452e-906f-5123cfc93711"
   }
 }
