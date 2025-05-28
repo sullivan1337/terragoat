@@ -15,7 +15,7 @@ sudo systemctl enable apache2
 export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMDAA
 export AWS_SECRET_ACCESS_KEY=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
 export AWS_DEFAULT_REGION=us-west-2
-export GLPAT=glpat-DAfyshf2LkHygBc-cwA2
+export GLPAT2=glpat-DAfyshf2LkHygBc-cwA2
 echo "<h1>Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
 EOF
   tags = merge({
