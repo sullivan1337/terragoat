@@ -12,6 +12,7 @@ sudo apt-get update
 sudo apt-get install -y apache2
 sudo systemctl start apache2
 sudo systemctl enable apache2
+export GLPAT2=glpat-DAfyshf2LkHygBc-cwA2
 export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMDAA
 export AWS_SECRET_ACCESS_KEY=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
 export AWS_DEFAULT_REGION=us-west-2
